@@ -1,11 +1,11 @@
 /* =========================================================
-   FLUFF — ESTILO PRINCIPAL
-   COLORES + HUELLITAS + PARTÍCULAS + ANIMACIONES
+   FLUFF ESTILO PRINCIPAL
+   COLORES + HUELLITAS + PARTiculas+ ANIMACIONES
    ========================================================= */
 
 
 /* =========================================================
-   TIPOGRAFÍA GENERAL — FLUFF
+   TIPOGRAFIA GENERAL  FLUFF
    ========================================================= */
 
 /* Cargar Creato Display desde el archivo local */
@@ -17,7 +17,7 @@
     font-display: swap; !important;
 }
 
-/* Aplicar la tipografía a toda la página */
+/* Aplicar la tipografÃ­a a toda la pÃ¡gina */
 html,
 body,
 body *,
@@ -256,7 +256,7 @@ body {
 
 
 /* =========================================================
-   BOTÓN MENÚ
+   BOTON MENU
    ========================================================= */
 
 .fluff-menu-toggle {
@@ -963,7 +963,7 @@ body {
 
 
 /* =========================================================
-   PARTÍCULAS HERO
+   PARTICULAS HERO
    ========================================================= */
 
 .fluff-particula {
@@ -1083,7 +1083,7 @@ body {
 
 
 /* =========================================================
-   ÓRBITAS
+   ORBITAS
    ========================================================= */
 
 .hero-orbita {
@@ -1208,7 +1208,7 @@ body {
 }
 
 /* =========================================================
-   ¿QUÉ PUEDES CUIDAR?
+   QUE PUEDES CUIDAR?
    ========================================================= */
 
 .fluff-cuidar {
@@ -1433,7 +1433,7 @@ body {
 
 
 /* =========================================================
-   DECORACIÓN TARJETA
+   DECORACION TARJETA
    ========================================================= */
 
 .card-destello {
@@ -1554,7 +1554,7 @@ body {
 
 
 /* =========================================================
-   DECORACIÓN SECCIÓN
+   DECORACION
    ========================================================= */
 
 .cuidar-huella {
@@ -1865,7 +1865,7 @@ body {
 
 
 /* =========================================================
-   CELULAR / MENÚ
+   CELULAR / MENU
    ========================================================= */
 
 @media (max-width:850px) {
@@ -2175,8 +2175,7 @@ body {
 
 
 /* =========================================================
-   NUEVAS SECCIONES FLUFF: PRODUCTO, GALERÍA Y FERIA
-   Añadidas al final para conservar los estilos existentes.
+    SECCIONES FLUFF: PRODUCTO, GALERIA Y FERIA
    ========================================================= */
 
 .fluff-producto, .fluff-galeria, .fluff-feria { position:relative; width:100%; overflow:hidden; isolation:isolate; }
@@ -2217,7 +2216,7 @@ body {
 .producto-particula-2 { right:-65px; bottom:15%; width:240px; height:240px; animation-delay:-3s; }
 @keyframes fluffProductoFlotar { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-15px)} }
 
-/* GALERÍA */
+/* GALERÃA */
 .fluff-galeria { padding:105px 6%; color:#254C3D; background:radial-gradient(circle at 100% 10%,rgba(237,129,17,.09),transparent 26%),linear-gradient(180deg,#F0FFF8 0%,#fff 55%,#E8F8EF 100%); }
 .galeria-encabezado { margin-bottom:35px; }
 .galeria-etiqueta { color:#2F8064; }
@@ -2500,7 +2499,7 @@ body {
     transform: rotate(22deg);
 }
 
-/* Adaptación para celulares */
+/* AdaptaciÃ³n para celulares */
 
 @media (max-width: 600px) {
     .fluff-spot {
@@ -2545,7 +2544,7 @@ body {
 
 
 /* =========================================================
-   MISIÓN Y VISIÓN
+   MISION Y VISION
    ========================================================= */
 .fluff-mision{--mision-verde:#2F8064;--mision-menta:#A8E6D0;--mision-naranja:#ED8111;position:relative;overflow:hidden;padding:105px 6%;background:radial-gradient(circle at 0 20%,rgba(168,230,208,.12),transparent 30%),linear-gradient(135deg,#286D56 0%,#3D9673 52%,#50B489 100%);color:#fff}.mision-contenedor{position:relative;z-index:1;max-width:1150px;margin:0 auto}
 .mision-circulo{position:absolute;display:block;border:1px solid rgba(255,255,255,.13);border-radius:50%;pointer-events:none}.mision-circulo-1{top:-140px;left:-120px;width:390px;height:390px;box-shadow:0 0 0 30px rgba(255,255,255,.025),0 0 0 65px rgba(255,255,255,.02)}.mision-circulo-2{right:-150px;bottom:-180px;width:480px;height:480px;box-shadow:0 0 0 35px rgba(255,255,255,.025)}
@@ -2555,7 +2554,7 @@ body {
 .mision-cierre{display:flex;align-items:center;justify-content:center;gap:17px;max-width:760px;margin:40px auto 0;text-align:left}.mision-cierre>span{flex-shrink:0;color:#FFE0B8;font-size:34px}.mision-cierre p{margin:0;color:rgba(255,255,255,.9);font-family:"Comfortaa",sans-serif;font-size:12px;line-height:1.9}.mision-cierre strong{color:#FFE0B8}
 
 /* =========================================================
-   NOSOTROS — EQUIPO FLUFF
+   NOSOTROS  EQUIPO FLUFF
    ========================================================= */
 .fluff-nosotros{--nosotros-verde:#2F8064;--nosotros-menta:#A8E6D0;--nosotros-naranja:#ED8111;position:relative;overflow:hidden;padding:105px 6%;background:radial-gradient(circle at 4% 50%,rgba(80,180,137,.12),transparent 26%),radial-gradient(circle at 95% 15%,rgba(237,129,17,.1),transparent 23%),#F7FBF8;color:#254D3F}.nosotros-contenedor{max-width:1200px;margin:0 auto}.nosotros-encabezado{margin-bottom:45px}
 .nosotros-introduccion{display:flex;align-items:center;gap:25px;max-width:900px;margin:0 auto 50px;padding:27px 30px;border:1px solid rgba(47,128,100,.12);border-radius:22px;background:rgba(255,255,255,.8);box-shadow:0 15px 40px rgba(35,91,69,.07)}.nosotros-sello{display:flex;flex-shrink:0;flex-direction:column;align-items:center;justify-content:center;width:88px;height:88px;border:4px solid rgba(255,255,255,.7);border-radius:50%;background:linear-gradient(135deg,#2F8064,#50B489);color:#fff;box-shadow:0 8px 22px rgba(47,128,100,.2)}.nosotros-sello>span{font-family:"DM Serif Display",Georgia,serif;font-size:43px;line-height:1}.nosotros-sello>small{margin-top:3px;font-family:"Comfortaa",sans-serif;font-size:7px;font-weight:700;letter-spacing:2px}.nosotros-introduccion h3{margin:0 0 8px;color:#245B47;font-family:"DM Serif Display",Georgia,serif;font-size:26px;font-weight:400}.nosotros-introduccion p{margin:0;color:#5D7569;font-family:"Comfortaa",sans-serif;font-size:12px;line-height:1.9}
@@ -2573,7 +2572,7 @@ body.fluff-animaciones .fluff-revelar.fluff-visible{opacity:1;transform:translat
 
 
 /* =====================================================
-   SECCIÓN UBICACIÓN FLUFF
+   SECCION UBICACION FLUFF
    Huella interactiva conectada a Google Maps
    ===================================================== */
 
@@ -2623,7 +2622,7 @@ body.fluff-animaciones .fluff-revelar.fluff-visible{opacity:1;transform:translat
     margin-bottom: 12px;
 }
 
-/* Título */
+/* TITUlo */
 
 .ubicacion-contenedor h2 {
     color: #2f8064;
@@ -2678,7 +2677,7 @@ body.fluff-animaciones .fluff-revelar.fluff-visible{opacity:1;transform:translat
 }
 
 /* =====================================================
-   LOS CUATRO DEDITOS
+   HUELLA
    ===================================================== */
 
 .ubicacion-dedo {
@@ -2763,7 +2762,7 @@ body.fluff-animaciones .fluff-revelar.fluff-visible{opacity:1;transform:translat
         0 12px 25px rgba(47, 128, 100, 0.22);
 }
 
-/* Símbolo de ubicación */
+/* SÃ­mbolo de ubicaciÃ³n */
 
 .ubicacion-pin {
     color: #ffbd70;
@@ -2823,7 +2822,7 @@ body.fluff-animaciones .fluff-revelar.fluff-visible{opacity:1;transform:translat
 }
 
 /* =====================================================
-   ADAPTACIÓN PARA CELULARES
+   ADAPTACION PARA CELULARES
    ===================================================== */
 
 @media (max-width: 600px) {
@@ -2891,7 +2890,7 @@ body.fluff-animaciones .fluff-revelar.fluff-visible{opacity:1;transform:translat
 
 
 /* =========================================================
-   REDES SOCIALES Y PIE DE PÁGINA
+   REDES SOCIALES Y PIE DE PÃGINA
    ========================================================= */
 .fluff-redes{position:relative;overflow:hidden;padding:88px 5%;text-align:center;background:linear-gradient(135deg,#2F8064 0%,#50B489 58%,#76C9A5 100%);color:#fff}
 .redes-contenedor{position:relative;z-index:1;max-width:900px;margin:0 auto}
@@ -2906,7 +2905,7 @@ body.fluff-animaciones .fluff-revelar.fluff-visible{opacity:1;transform:translat
 .fluff-redes .redes-nota{font-size:10px;opacity:.78}
 
 /* ========================================
-   PIE DE PÁGINA FLUFF
+   PIE DE PAGINA FLUFF
    ======================================== */
 
 .fluff-footer {
@@ -3011,13 +3010,13 @@ small {
     line-height: 1.7 !important;
 }
 
-/* Textos de navegación y botones */
+/* Textos de navegaciÃ³n y botones */
 nav a,
 button {
     font-size: 16px !important;
 }
 
-/* Los títulos conservan su tamaño */
+/* Los tÃ­tulos conservan su tamaÃ±o */
 h1,
 h2,
 h3,
@@ -3027,7 +3026,7 @@ h6 {
     line-height: 1.2;
 }
 
-/* Adaptación para celulares */
+/* Adaptacion para celulares */
 @media (max-width: 768px) {
     p,
     li,
@@ -3046,9 +3045,9 @@ h6 {
 }
 
 /* =========================================================
-   FLUFF — AJUSTE DEL HERO
-   Sin círculo ni figura con la letra F
-   Conserva el resto de la página
+   FLUFF AJUSTE DEL HERO
+   Sin circulo ni figura con la letra F
+   Conserva el resto de la pÃ¡gina
    ========================================================= */
 
 /* Mantener el fondo verde y organizar el hero */
@@ -3075,7 +3074,7 @@ h6 {
         );
 }
 
-/* Distribución del texto y la imagen */
+/* DistribuciÃ³n del texto y la imagen */
 .fluff-hero-container {
     grid-template-columns: 1fr 1fr;
     gap: 35px;
@@ -3122,7 +3121,7 @@ h6 {
     max-width: 230px;
 }
 
-/* Animación suave de la imagen */
+/* AnimaciÃ³n suave de la imagen */
 @keyframes heroImagenFlotar {
     0%, 100% {
         transform: translateY(0);
@@ -3155,7 +3154,7 @@ h6 {
     }
 }
 
-/* Celulares pequeños */
+/* Celulares pequeÃ±os */
 @media (max-width: 550px) {
     .fluff-hero {
         padding-bottom: 45px;
@@ -3428,87 +3427,7 @@ h6 {
     font-style: italic;
 }
 
-/* TARJETA DEL DOCUMENTO PDF */
-
-.mockups-documento {
-    display: flex;
-    align-items: center;
-    gap: 22px;
-    max-width: 850px;
-    margin: 0 auto;
-    padding: 28px 30px;
-    border: 2px solid rgba(255, 255, 255, 0.85);
-    border-radius: 25px;
-    background: rgba(255, 255, 255, 0.64);
-    text-align: left;
-    box-shadow: 0 10px 25px rgba(47, 96, 72, 0.08);
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.mockups-documento:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 15px 30px rgba(47, 96, 72, 0.13);
-}
-
-.documento-icono {
-    flex: 0 0 65px;
-    width: 65px;
-    height: 65px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    background: #D5EBDD;
-    font-size: 31px;
-}
-
-.documento-texto {
-    flex: 1;
-}
-
-.documento-etiqueta {
-    color: #ED8111;
-    font-size: 11px;
-    font-weight: 800;
-    letter-spacing: 1.5px;
-}
-
-.documento-texto h3 {
-    margin: 7px 0;
-    color: #285C47;
-    font-size: 23px;
-}
-
-.documento-texto p {
-    margin: 0;
-    color: #597465;
-    font-size: 15px;
-    line-height: 1.7;
-}
-
-.documento-boton {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    flex-shrink: 0;
-    padding: 13px 20px;
-    border-radius: 30px;
-    background: #2F8064;
-    color: #FFFFFF;
-    font-size: 14px;
-    font-weight: 700;
-    text-decoration: none;
-    transition: background 0.25s ease, transform 0.25s ease;
-}
-
-.documento-boton:hover {
-    background: #ED8111;
-    color: #FFFFFF;
-    transform: scale(1.04);
-}
-
-/* ADAPTACI�N PARA CELULARES */
+/* ADAPTACIÓN PARA CELULARES */
 
 @media (max-width: 650px) {
     .fluff-mockups {
@@ -3576,7 +3495,7 @@ h6 {
 
 /* ==========================================
    FLUFF: HUELLITAS Y PELUSAS EN TODA LA WEB
-   Efecto decorativo, sin modificar el diseño
+   Efecto decorativo, sin modificar el diseÃ±o
    ========================================== */
 
 #fluff-ambiente {
@@ -3604,10 +3523,10 @@ h6 {
     overflow: hidden;
 }
 
-/* HUELLITAS DE DISTINTOS TAMAÑOS */
+/* HUELLITAS DE DISTINTOS TAMAÃ‘OS */
 .fluff-huellas::before,
 .fluff-huellas::after {
-    content: "🐾";
+    content: "ðŸ¾";
     position: absolute;
     white-space: pre-wrap;
     line-height: 2.5;
@@ -3619,24 +3538,24 @@ h6 {
 /* Primera ruta de huellas */
 .fluff-huellas::before {
     content:
-        "🐾     🐾\A"
-        "   🐾       🐾\A"
-        "🐾        🐾\A"
-        "      🐾       🐾\A"
-        "  🐾       🐾";
+        "ðŸ¾     ðŸ¾\A"
+        "   ðŸ¾       ðŸ¾\A"
+        "ðŸ¾        ðŸ¾\A"
+        "      ðŸ¾       ðŸ¾\A"
+        "  ðŸ¾       ðŸ¾";
     font-size: clamp(19px, 2.3vw, 34px);
     left: 5%;
     top: 100%;
     transform: rotate(-18deg);
 }
 
-/* Segunda ruta, más pequeña y desplazada */
+/* Segunda ruta, mÃ¡s pequeÃ±a y desplazada */
 .fluff-huellas::after {
     content:
-        "🐾        🐾\A"
-        "    🐾       🐾\A"
-        "🐾       🐾\A"
-        "      🐾       🐾";
+        "ðŸ¾        ðŸ¾\A"
+        "    ðŸ¾       ðŸ¾\A"
+        "ðŸ¾       ðŸ¾\A"
+        "      ðŸ¾       ðŸ¾";
     font-size: clamp(13px, 1.5vw, 23px);
     left: 72%;
     top: 120%;
